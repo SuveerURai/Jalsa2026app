@@ -31,7 +31,7 @@ export default function Footer() {
           <h4 className="font-bold text-zinc-200 mb-4 text-sm uppercase tracking-wider">Quick Links</h4>
           <ul className="space-y-2.5 text-sm">
             <li><Link href="/" className="hover:text-brand-400 transition-colors">Event Highlights</Link></li>
-            <li><Link href="/register" className="hover:text-brand-400 transition-colors text-brand-400 font-medium">Student Registration (₹199)</Link></li>
+            <li><Link href="/register" className="hover:text-brand-400 transition-colors text-brand-400 font-medium">Student Registration (₹200)</Link></li>
             <li><Link href="/registration/status" className="hover:text-brand-400 transition-colors">Check Ticket Status</Link></li>
             <li><Link href="/faq" className="hover:text-brand-400 transition-colors">Frequently Asked Questions</Link></li>
             <li><Link href="/admin/login" className="hover:text-zinc-200 text-xs text-zinc-500 transition-colors">Volunteer / Admin Portal</Link></li>

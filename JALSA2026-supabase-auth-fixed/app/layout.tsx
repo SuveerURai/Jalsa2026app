@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   keywords: ['JALSA 2026', 'College Fest', 'Dandiya Night', 'Ticket Registration', 'College Cultural Event'],
   openGraph: {
     title: 'JALSA 2026 — Official Registration & Digital QR Ticketing Portal',
-    description: 'Register for JALSA 2026. Secure your ticket online for ₹199.',
+    description: 'Register for JALSA 2026. Secure your ticket online for ₹200.',
     type: 'website',
   },
 };

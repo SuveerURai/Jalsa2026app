@@ -178,8 +178,8 @@ JALSA. One boy and one girl will be crowned Best Dressed!
 
             <div className="bg-dark-bg border border-dark-border p-6 rounded-2xl space-y-3 relative">
               <span className="w-8 h-8 rounded-full bg-brand-500 text-black font-extrabold flex items-center justify-center text-sm">2</span>
-              <h4 className="font-bold text-white text-lg">Pay ₹199 via UPI</h4>
-              <p className="text-xs text-zinc-400 leading-relaxed">Scan official event UPI QR or use UPI ID ({settings.upi_id}) to transfer ₹199 pass fee.</p>
+              <h4 className="font-bold text-white text-lg">Pay ₹200 via UPI</h4>
+              <p className="text-xs text-zinc-400 leading-relaxed">Scan official event UPI QR or use UPI ID ({settings.upi_id}) to transfer ₹200 pass fee.</p>
             </div>
 
             <div className="bg-dark-bg border border-dark-border p-6 rounded-2xl space-y-3 relative">
@@ -258,7 +258,7 @@ JALSA. One boy and one girl will be crowned Best Dressed!
             Don't Miss out on JALSA '26!
           </h2>
           <p className="text-zinc-300 max-w-xl mx-auto text-sm sm:text-base">
-            Pass fee is ₹199 per person. Register now to reserve your spot before passes sell out.
+            Pass fee is ₹200 per person. Register now to reserve your spot before passes sell out.
           </p>
           <div className="pt-2">
             <Link
@@ -266,7 +266,7 @@ JALSA. One boy and one girl will be crowned Best Dressed!
               className="inline-flex items-center gap-3 px-8 py-4 text-base font-extrabold text-black bg-gradient-to-r from-amber-400 via-brand-500 to-amber-500 rounded-2xl shadow-gold-glow hover:scale-105 transition-all"
             >
               <Sparkles className="w-5 h-5" />
-              Secure My Ticket Now (₹199)
+              Secure My Ticket Now (₹200)
             </Link>
           </div>
         </div>

@@ -6,11 +6,11 @@ export default function FAQPage() {
   const faqs = [
     {
       q: 'How much is the registration fee for JALSA 2026?',
-      a: 'The registration fee is ₹199 per student pass. Every pass is mapped to a single student USN and includes full event access and a digital QR ticket.'
+      a: 'The registration fee is ₹200 per student pass. Every pass is mapped to a single student USN and includes full event access and a digital QR ticket.'
     },
     {
       q: 'What is the payment verification process?',
-      a: 'After completing student details, scan the official UPI QR code and pay ₹199. Copy the 12-digit UTR/Transaction ID, attach your payment screenshot, and submit. The organizing committee verifies your transaction, and your active QR code will appear on your ticket page.'
+      a: 'After completing student details, scan the official UPI QR code and pay ₹200. Copy the 12-digit UTR/Transaction ID, attach your payment screenshot, and submit. The organizing committee verifies your transaction, and your active QR code will appear on your ticket page.'
     },
     {
       q: 'Can I enter without a College ID Card?',

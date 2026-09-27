@@ -134,7 +134,7 @@ export default function Navbar() {
                   className="relative group px-5 py-2.5 text-sm font-bold text-black bg-gradient-to-r from-amber-400 via-brand-500 to-amber-500 rounded-xl shadow-gold-glow hover:opacity-95 transition-all flex items-center gap-2"
                 >
                   <Sparkles className="w-4 h-4 text-black animate-pulse" />
-                  Register Now (₹199)
+                  Register Now (₹200)
                 </Link>
               </>
             ) : adminRole === 'SCANNER' || adminRoleLoading ? null : (
@@ -176,7 +176,7 @@ export default function Navbar() {
                 onClick={() => setMobileOpen(false)}
                 className="block px-3 py-2 rounded-lg text-base font-semibold text-brand-400 hover:bg-zinc-800"
               >
-                Register Now (₹199)
+                Register Now (₹200)
               </Link>
               <Link
                 href="/registration/status"

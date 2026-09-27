@@ -12,7 +12,7 @@ This repository contains the complete production-ready full-stack web applicatio
 - **Configurable Academic Options**: Admin can customize available departments, semesters, and sections via Admin Settings.
 
 ### 2. Manual UPI Payment Verification Workflow
-- **Dedicated Payment Page**: Displays ₹199 fee, official UPI ID, Payee Name, UPI QR, and instructions.
+- **Dedicated Payment Page**: Displays ₹200 fee, official UPI ID, Payee Name, UPI QR, and instructions.
 - **UTR & Screenshot Collection**: Students enter their 12-digit UPI Transaction ID / UTR and upload payment screenshots (JPG, PNG, WebP).
 - **Sequential Registration ID Generation**: Atomic sequence generator produces IDs formatted as `JALSA26-0001`, `JALSA26-0002`, etc.
 

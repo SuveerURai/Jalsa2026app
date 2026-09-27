@@ -100,7 +100,7 @@ create table if not exists public.event_settings (
   upi_id text not null default 'jalsa2026@upi',
   payee_name text not null default 'JALSA 2026 Organizing Committee',
   upi_qr_url text default '',
-  payment_instructions text not null default 'Scan the UPI QR code using GPay, PhonePe, Paytm, or another UPI app. Pay ₹199 and enter the transaction ID / UTR and upload the payment screenshot.',
+  payment_instructions text not null default 'Scan the UPI QR code using GPay, PhonePe, Paytm, or another UPI app. Pay ₹200 and enter the transaction ID / UTR and upload the payment screenshot.',
   departments jsonb not null default '["Computer Science & Eng (CSE)","Information Science (ISE)","Electronics & Comm (ECE)","Electrical & Electronics (EEE)","Mechanical Eng (ME)","Civil Eng (CIVIL)","Artificial Intelligence (AIML)","Data Science (AIDS)"]'::jsonb,
   semesters jsonb not null default '["1st Sem","2nd Sem","3rd Sem","4th Sem","5th Sem","6th Sem","7th Sem","8th Sem"]'::jsonb,
   sections jsonb not null default '["Section A","Section B","Section C","Section D","Section E"]'::jsonb,

@@ -15,7 +15,7 @@ const DEFAULT_SETTINGS: EventSettings = {
   upi_id: 'jalsa2026@upi',
   payee_name: 'JALSA 2026 Organizing Committee',
   upi_qr_url: '',
-  payment_instructions: 'Scan the UPI QR code using GPay, PhonePe, Paytm, or any UPI app. Pay ₹199 and enter the 12-digit Transaction ID / UTR and upload the payment screenshot.',
+  payment_instructions: 'Scan the UPI QR code using GPay, PhonePe, Paytm, or any UPI app. Pay ₹200 and enter the 12-digit Transaction ID / UTR and upload the payment screenshot.',
   departments: [
     'Computer Science & Eng (CSE)',
     'Information Science (ISE)',
