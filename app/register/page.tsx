@@ -415,20 +415,15 @@ export default function RegisterPage() {
                 <p className="text-xs text-zinc-400">UPI ID: <code className="bg-zinc-900 px-2 py-1 rounded text-amber-300 font-mono select-all">{settings?.upi_id}</code></p>
               </div>
 
-             {/* UPI QR Code Display */}
-<div className="flex flex-col items-center p-3 bg-white rounded-2xl shadow-xl">
-  <div className="w-48 h-48 flex items-center justify-center">
-    <img
-      src="/payment-qr.png"
-      alt="Scan to pay for JALSA 2026"
-      className="w-full h-full object-contain"
-    />
-  </div>
-
-  <span className="text-[11px] font-semibold text-zinc-800 mt-2">
-    {settings?.upi_id}
-  </span>
-</div>
+              {/* UPI QR Code Display */}
+              <div className="flex flex-col items-center p-3 bg-white rounded-2xl shadow-xl">
+                {/* SVG/QR Graphic representing standard UPI QR */}
+                <div className="w-36 h-36 bg-white flex flex-col items-center justify-center text-black font-bold p-2 text-center border-2 border-black rounded-lg">
+                  <QrCode className="w-24 h-24 text-black" />
+                  <span className="text-[10px] tracking-tight text-zinc-700 mt-1 font-mono">SCAN VIA GPAY/PHONEPE</span>
+                </div>
+                <span className="text-[11px] font-semibold text-zinc-800 mt-1">{settings?.upi_id}</span>
+              </div>
             </div>
 
             {/* Payment Instructions */}
